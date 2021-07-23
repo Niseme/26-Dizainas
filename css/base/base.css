@@ -1,0 +1,9 @@
+/* h2
+paragrafas
+socials */
+
+.socials {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
