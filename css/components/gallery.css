@@ -24,6 +24,6 @@
 }
 .gallery .item:hover img {
   transform: rotate(-5deg) translate(-50%, -50%);
-  /* width: 80%;
-  height: 80%; */
+  width: 80%;
+  height: 80%;
 }
