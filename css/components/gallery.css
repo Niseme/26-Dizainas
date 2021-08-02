@@ -1,2 +1,29 @@
 .gallery {
 }
+.gallery .item {
+  height: 300px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  border: 2px solid black;
+  position: relative;
+}
+
+.gallery .item img {
+  transform-origin: bottom left;
+
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+}
+.gallery .item:hover img {
+  transform: rotate(-5deg) translate(-50%, -50%);
+  /* width: 80%;
+  height: 80%; */
+}
