@@ -7,5 +7,7 @@
 
 /* components */
 @import "./components/btn.css";
+@import "./components/hero.css";
+@import "./components/gallery.css";
 
 /* custom */

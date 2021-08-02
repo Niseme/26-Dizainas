@@ -1,0 +1,6 @@
+.hero {
+  background-image: url(../../img/bg01.png);
+  min-height: 100vh;
+  background-color: aqua;
+  background-position: center;
+}
