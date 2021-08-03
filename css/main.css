@@ -2,6 +2,7 @@
 @import "./base/reset.css";
 @import "./base/layout.css";
 @import "./base/base.css";
+@import "./base/variables.css";
 
 /* 3rd parties */
 
@@ -9,5 +10,7 @@
 @import "./components/btn.css";
 @import "./components/hero.css";
 @import "./components/gallery.css";
+@import "./components/reviews.css";
+@import "./components/foot.css";
 
 /* custom */
