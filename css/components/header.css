@@ -1,9 +1,9 @@
 .header {
+  padding: 0px;
   height: 100px;
   display: inline-block;
   background: rgb(161, 131, 131);
   position: relative;
-  margin-bottom: 20px;
 }
 .logoheader {
   width: 15%;
