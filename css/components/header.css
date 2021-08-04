@@ -1,0 +1,23 @@
+.header {
+  height: 100px;
+  display: inline-block;
+  background: rgb(161, 131, 131);
+  position: relative;
+  margin-bottom: 20px;
+}
+.logoheader {
+  width: 15%;
+  float: left;
+  padding: 10px;
+}
+.border {
+  border: 2px solid black;
+}
+.navigacija {
+  float: left;
+  padding: 10px;
+}
+.ikoneles {
+  float: left;
+  padding: 10px;
+}
