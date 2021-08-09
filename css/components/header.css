@@ -13,10 +13,33 @@
   border: 2px solid black;
 }
 .navigacija {
+  display: inline-block;
   float: left;
-  margin-left: 10px;
+  margin-left: 100px;
+  margin-top: 6px;
 }
 .ikoneles {
   float: left;
   margin-left: 10px;
+}
+.navigacija .home {
+  display: inline-block;
+  margin-right: 30px;
+  font-family: 13px, "Nunito", sans-serif;
+}
+.navigacija .landing {
+  display: inline-block;
+  margin-right: 30px;
+}
+.navigacija .pages {
+  display: inline-block;
+  margin-right: 30px;
+}
+.navigacija .docs {
+  display: inline-block;
+  margin-right: 30px;
+}
+.navigacija .demos {
+  display: inline-block;
+  margin-right: 30px;
 }
