@@ -5,7 +5,7 @@
 @import "./base/variables.css";
 
 /* 3rd parties */
-
+@import "./3rd_parties/font-awesome.min.css";
 /* components */
 @import "./components/btn.css";
 @import "./components/hero.css";
