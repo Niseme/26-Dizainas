@@ -17,13 +17,13 @@
   margin-top: 6px;
 }
 .ikoneles {
-  float: left;
+  display: inline-block;
+  float: right;
   margin-left: 10px;
 }
 .navigacija .home {
   display: inline-block;
   margin-right: 30px;
-  font-family: 13px, "Nunito", sans-serif;
 }
 .navigacija .landing {
   display: inline-block;
@@ -40,4 +40,16 @@
 .navigacija .demos {
   display: inline-block;
   margin-right: 30px;
+}
+.ikoneles .fa.fa-cog {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 100%;
+  padding: 6px;
+}
+.ikoneles .fa.fa-shopping-cart {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 100%;
+  padding: 6px;
 }
