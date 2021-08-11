@@ -1,9 +1,10 @@
 .header {
   padding: 0px;
-  height: 100px;
+  height: 80px;
   display: inline-block;
-  background: rgb(161, 131, 131);
+  background: var(--white-color);
   position: relative;
+  margin-bottom: 10px;
 }
 .logoheader {
   width: 15%;
@@ -43,13 +44,15 @@
 }
 .ikoneles .fa.fa-cog {
   display: inline-block;
-  border: 2px solid black;
   border-radius: 100%;
   padding: 6px;
+  background-color: #2f55d41a;
+  margin-right: 5px;
 }
 .ikoneles .fa.fa-shopping-cart {
   display: inline-block;
-  border: 2px solid black;
+
   border-radius: 100%;
   padding: 6px;
+  background-color: #2f55d4;
 }
