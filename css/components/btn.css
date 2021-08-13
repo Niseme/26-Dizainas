@@ -1,14 +1,15 @@
 .btn {
-  border: 2px solid var(--btn-color);
+  border: 1px solid var(--btn-color);
+  color: var(--btn-color);
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 20px;
   display: inline-block;
-  margin-top: 60px;
   margin-right: 10px;
 }
 
 .btn-color {
   background-color: var(--btn-color);
+  color: var(--white-color);
 }
 
 .btn .fa.fa-camera {

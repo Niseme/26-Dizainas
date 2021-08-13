@@ -1,0 +1,7 @@
+.workprocess {
+  border: 2px solid olivedrab;
+  transition: all 0.5s;
+}
+.workprocess:hover {
+  margin-top: -10px;
+}

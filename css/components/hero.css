@@ -4,3 +4,25 @@
   background-position: center;
   background-color: var(--light-gray-color);
 }
+.bigletters {
+  font-size: 64px;
+  font-weight: 545;
+}
+.color {
+  color: var(--btn-color);
+}
+.descriptiontxt {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: var(--text-color-gray);
+  line-height: 1.6rem;
+}
+.verticalcenter {
+  margin-top: 60px;
+}
+.bg {
+  background-color: red;
+}
+.bg1 {
+  background-color: blue;
+}

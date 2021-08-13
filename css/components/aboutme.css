@@ -1,0 +1,22 @@
+.title {
+  letter-spacing: 0.5px;
+  font-size: 25px;
+  font-weight: 10;
+  margin-bottom: 10px;
+}
+.blue-paragraph {
+  color: var(--btn-color);
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  border: 2px solid red;
+  background-color: red;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.fa.fa-phone {
+  margin-top: 2px;
+  margin-right: 4px;
+}

@@ -1,14 +1,16 @@
 .header {
   padding: 0px;
-  min-height: ųėpx;
   display: inline-block;
   background: var(--white-color);
   position: relative;
   margin-bottom: 10px;
 }
-
+.header .row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .sticky {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -19,7 +21,7 @@
 }
 
 .navigacija {
-  display: inline-block;
+  display: none;
   float: left;
   margin-left: 100px;
   margin-top: 6px;
@@ -33,39 +35,38 @@
   display: inline-block;
   margin-right: 30px;
 }
+
+.navigacija .home:hover {
+  color: var(--btn-color);
+}
 .navigacija .drop-down {
   display: inline-block;
   margin-right: 30px;
 }
-
-.navigacija .drop-down .landing {
-  color: var(--btn-color);
+.navigacija .drop-down:last-of-type {
+  margin-right: 0px;
 }
-/* .navigacija .pages {
-  display: inline-block;
-  margin-right: 30px;
-} 
-.navigacija .docs {
-  display: inline-block;
-  margin-right: 30px;
-}
-.navigacija .demos {
-  display: inline-block;
-  margin-right: 30px; 
-}*/
 
 .ikoneles .fa.fa-cog {
   display: inline-block;
   border-radius: 100%;
   padding: 6px;
   background-color: var(--settings-color);
-
   margin-right: 5px;
+  box-shadow: 0 5px 5px var(--btn-color);
 }
 .ikoneles .fa.fa-shopping-cart {
   display: inline-block;
-
   border-radius: 100%;
   padding: 6px;
   background-color: var(--btn-color);
+}
+
+@media (min-width: 991px) {
+  .navigacija {
+    display: inline-block;
+  }
+  .fa.fa-bars {
+    display: none;
+  }
 }
