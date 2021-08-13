@@ -1,10 +1,19 @@
 .btn {
-  border: 2px solid#2f55d4;
+  border: 2px solid var(--btn-color);
   border-radius: 10px;
   padding: 10px;
   display: inline-block;
+  margin-top: 60px;
+  margin-right: 10px;
 }
 
-.btn .color {
-  background-color: #2f55d4;
+.btn-color {
+  background-color: var(--btn-color);
+}
+
+.btn .fa.fa-camera {
+  padding-right: 8px;
+}
+.btn .fa.fa-cloud-download {
+  padding-right: 8px;
 }

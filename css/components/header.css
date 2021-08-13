@@ -6,6 +6,13 @@
   position: relative;
   margin-bottom: 10px;
 }
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
 .logoheader {
   width: 15%;
   float: left;
@@ -26,12 +33,15 @@
   display: inline-block;
   margin-right: 30px;
 }
-.navigacija .drop-down  {
+.navigacija .drop-down {
   display: inline-block;
   margin-right: 30px;
-
 }
- /* .navigacija .pages {
+
+.navigacija .drop-down .landing {
+  color: var(--btn-color);
+}
+/* .navigacija .pages {
   display: inline-block;
   margin-right: 30px;
 } 
@@ -41,13 +51,15 @@
 }
 .navigacija .demos {
   display: inline-block;
-  margin-right: 30px; */
-}
+  margin-right: 30px; 
+}*/
+
 .ikoneles .fa.fa-cog {
   display: inline-block;
   border-radius: 100%;
   padding: 6px;
-  background-color: var(--settings-color)
+  background-color: var(--settings-color);
+
   margin-right: 5px;
 }
 .ikoneles .fa.fa-shopping-cart {
@@ -55,5 +67,5 @@
 
   border-radius: 100%;
   padding: 6px;
-  background-color: var(--cart-color);
+  background-color: var(--btn-color);
 }
