@@ -1,0 +1,26 @@
+.title {
+  letter-spacing: 0.5px;
+  font-size: 35px;
+  font-weight: 1;
+}
+.descriptiontxt {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: var(--text-color-gray);
+  line-height: 1.6rem;
+}
+.smallertitle {
+  letter-spacing: 0.5px;
+  font-size: 24px;
+  font-weight: 10;
+}
+.blue-paragraph {
+  color: var(--btn-color);
+}
+
+.step-style {
+  font-family: sans-serif;
+  font-size: 50px;
+  color: var(--text-color-default);
+  opacity: 0.06;
+}

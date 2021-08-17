@@ -1,4 +1,5 @@
 .gallery {
+  background-color: red;
 }
 .gallery .item {
   height: 300px;

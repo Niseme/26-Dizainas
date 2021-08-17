@@ -3,6 +3,7 @@
   min-height: 100vh;
   background-position: center;
   background-color: var(--light-gray-color);
+  z-index: 1;
 }
 .bigletters {
   font-size: 64px;
@@ -11,12 +12,7 @@
 .color {
   color: var(--btn-color);
 }
-.descriptiontxt {
-  padding-top: 20px;
-  padding-bottom: 30px;
-  color: var(--text-color-gray);
-  line-height: 1.6rem;
-}
+
 .verticalcenter {
   margin-top: 60px;
 }

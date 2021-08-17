@@ -1,11 +1,4 @@
-.title {
-  letter-spacing: 0.5px;
-  font-size: 25px;
-  font-weight: 10;
-  margin-bottom: 10px;
-}
-.blue-paragraph {
-  color: var(--btn-color);
+.margin {
   margin-bottom: 10px;
 }
 
