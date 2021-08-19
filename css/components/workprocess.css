@@ -10,4 +10,14 @@
 .read-more {
   display: inline-block;
   margin-right: 10px;
+  margin-bottom: 10px;
+}
+.card-content {
+  padding-bottom: 0px;
+}
+.fa.fa-angle-double-right {
+  margin-left: 60px;
+}
+.step-style > .fa.fa-check {
+  margin-left: 40px;
 }
