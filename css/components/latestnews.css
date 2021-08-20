@@ -1,0 +1,41 @@
+.ln-images {
+  display: inline-block;
+  width: 100%;
+}
+
+.grid-box {
+  display: grid;
+  border: 2px solid black;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  color: var(--text-color-dark-gray);
+  grid-template-areas:
+    "lnimages lnimages"
+    "ln-txt ln-txt"
+    "fontawesome read-more";
+}
+
+.grid-box .ln-images {
+  grid-area: lnimages;
+}
+.grid-box .ln-txt {
+  grid-area: ln-txt;
+  padding: 10px;
+  color: var(--text-color-dark-gray);
+  font-size: 23px;
+}
+.grid-box .fontawesome {
+  grid-area: fontawesome;
+  display: inline-block;
+  padding: 10px;
+  color: var(--text-color-dark-gray);
+}
+
+.grid-box .read-more {
+  grid-area: read-more;
+  padding: 10px;
+}
+
+.grid-box .read-more > .fa.fa-angle-right {
+  margin-left: 10px;
+}
