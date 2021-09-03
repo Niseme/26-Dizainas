@@ -7,3 +7,6 @@ socials */
   justify-content: flex-end;
   gap: 15px;
 }
+.bottom-line {
+  border-bottom: 1px solid var(--text-color-gray);
+}

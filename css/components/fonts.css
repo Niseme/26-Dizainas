@@ -19,6 +19,9 @@
 }
 
 .step-style {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
   font-family: sans-serif;
   font-size: 50px;
   color: var(--text-color-default);

@@ -20,3 +20,6 @@
 @import "./components/fonts.css";
 @import "./components/latestnews.css";
 /* custom */
+.work-process-section {
+  padding-top: 0;
+}

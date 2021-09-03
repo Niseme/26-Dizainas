@@ -43,6 +43,3 @@
   display: inline-block;
   height: 25px;
 }
-.bottom-line {
-  border-bottom: 1px solid var(--text-color-gray);
-}

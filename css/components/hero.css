@@ -3,7 +3,6 @@
   min-height: 100vh;
   background-position: center;
   background-color: var(--light-gray-color);
-  z-index: 1;
 }
 .bigletters {
   font-size: 64px;
