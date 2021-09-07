@@ -1,0 +1,18 @@
+.border {
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px rgba(53, 52, 52, 0.219);
+}
+
+.personal-info {
+  display: inline;
+  color: var(--text-color-default);
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.personal-info:last-of-type {
+  color: red;
+}
+.form input {
+  display: inline-block;
+}

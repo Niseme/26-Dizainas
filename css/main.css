@@ -19,6 +19,8 @@
 @import "./components/myworkandportfolio.css";
 @import "./components/fonts.css";
 @import "./components/latestnews.css";
+@import "./components/contactme.css";
+
 /* custom */
 .work-process-section {
   padding-top: 0;
