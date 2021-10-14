@@ -5,16 +5,23 @@
   flex-direction: column;
   gap: 10px;
   align-items: flex-start;
+  padding: 10px;
 }
-.form-row {
+.form-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
 }
+
 .personal-info {
   display: inline;
   color: var(--text-color-default);
   font-family: "Nunito", sans-serif;
   font-size: 14px;
   font-weight: bolder;
-  line-height: 37px;
+  line-height: 21px;
+  padding: 8px 0;
+  max-width: 150px;
 }
 .personal-info[data-required="true"]::after {
   content: "*";
@@ -23,6 +30,7 @@
 .input {
   display: inline-block;
   position: relative;
+  align-self: center;
 }
 .input .fa {
   position: absolute;
@@ -33,10 +41,22 @@
   width: 40px;
   text-align: center;
 }
-.form-row input {
+.input input {
   display: inline-block;
   padding: 5px 10px 5px 40px;
   font-size: 20px;
   line-height: 25px;
   border-radius: 4px;
+  width: 100%;
+}
+.input textarea {
+  display: inline-block;
+  padding: 5px 10px 5px 40px;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 4px;
+  width: 100%;
+  resize: vertical;
+  min-height: 85px;
+  max-height: 285px;
 }
