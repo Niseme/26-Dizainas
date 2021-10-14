@@ -286,34 +286,44 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 ">
-                <div class="border">
+                <form class="form">
                     <div class="smallertitle"> Get In Touch ! </div>
-                    <div class="form">
-                        <div class="personal-info">Your name </div>
-                        <div class="personal-info">*</div>
-                        <input type="text" placeholder="Name :">
+                    <div class="form-row">
+                        <label for="name" class="personal-info" data-required="true">Your name</label>
+                        <div class="input">
+                            <input id="name" type="text" placeholder="Name" required>
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </div>
                     </div>
-                    <div class="form">
-                        <div class="personal-info">Your Email </div>
-                        <div class="personal-info">*</div>
-                        <input type="text" placeholder="Email :">
+                    <div class="form-row">
+                        <label for="email" class="personal-info" data-required="true">Your Email</label>
+                        <div class="input">
+                            <input id="email" type="email" placeholder="Email" required>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
                     </div>
-                    <div class="form">
-                        <div class="personal-info">Subject </div>
-                        <div class="personal-info">*</div>
-                        <input type="text" placeholder="Subject :">
+                    <div class="form-row">
+                        <label for="subject" class="personal-info" data-required="true">Subject</label>
+                        <div class="input">
+                            <input id="subject" type="text" placeholder="Subject" required>
+                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                        </div>
                     </div>
-                    <div class="form">
-                        <div class="personal-info">Comments </div>
-                        <div class="personal-info">*</div>
-                        <input type="text" placeholder="Message :">
+                    <div class="form-row">
+                        <label for="message" class="personal-info" data-required="true">Comments</label>
+                        <div class="input">
+                            <input id="message" type="text" placeholder="Message" required>
+                            <i class="fa fa-comment" aria-hidden="true"></i>
+                        </div>
                     </div>
+                    <button type="submit" class="btn">Submit</button>
 
-                </div>
+                </form>
 
 
 
             </div>
+
             <div class="col-12 col-md-6 col-lg-8">Google Map</div>
 
 
