@@ -5,41 +5,36 @@
   background-color: var(--light-gray-color);
   z-index: 1;
 }
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
 .stars {
-  display: inline-block;
-  /* position: center; */
-  margin-left: 230px;
-  padding: 10px 0 10px 0;
-  color: var(--start-color);
+  margin-top: 20px;
 }
 
 .stars > .fa.fa-star {
-  padding: 0 2px 0 2px;
+  color: #f90;
 }
-.client-name {
-  display: inline-block;
-  margin-left: 260px;
-}
+
 .client-foto {
-  display: inline-block;
-  width: 70px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
   border-radius: 50%;
-  margin-left: 250px;
-  padding: 25px 0 25px 0;
 }
 .photo-mover {
-  display: inline-block;
-  margin-left: 250px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
 }
 .squares {
-  display: inline-block;
-  border: 2px solid var(--btn-color);
-  background-color: var(--btn-color);
   width: 10px;
   height: 10px;
-  border-radius: 40%;
-}
-.avatar {
-  display: inline-block;
-  height: 25px;
+  border-radius: 25%;
+  background-color: blue;
 }
